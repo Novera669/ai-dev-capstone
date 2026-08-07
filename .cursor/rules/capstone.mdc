@@ -1,0 +1,16 @@
+# Project Rules
+
+## Stack
+- Language/framework: <e.g. TypeScript, Node 20, Next.js>
+- Package manager: <npm/pnpm/yarn>
+- Testing: <e.g. Vitest, Jest>
+
+## Conventions
+- Commit messages follow Conventional Commits (feat, fix, docs, chore, refactor, test)
+- Code formatted with <prettier/eslint — name your setup>
+- Branch naming: feature/*, fix/*
+
+## Commands
+- Install deps: `npm install`
+- Run dev server: `npm run dev`
+- Run tests: `npm test`
