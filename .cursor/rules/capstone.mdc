@@ -14,3 +14,8 @@
 - Install deps: `npm install`
 - Run dev server: `npm run dev`
 - Run tests: `npm test`
+## Lessons from FE-04 (vague vs. precise prompting drill)
+
+- Forms use react-hook-form + zod for state and validation; never uncontrolled inputs with manual state.
+- Conditionally required fields (e.g. a field only required when a toggle is on) must be enforced in the zod schema via `superRefine`, not just in the UI.
+- After generating any new component, verify it is actually imported and rendered from `App.tsx` (or an equivalent entry point) and that `npm run dev` serves it without errors in the browser — passing unit tests alone do not confirm the app runs.
