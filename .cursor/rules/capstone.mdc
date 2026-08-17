@@ -1,9 +1,9 @@
 # Project Rules
 
 ## Stack
-- Language/framework: <e.g. TypeScript, Node 20, Next.js>
-- Package manager: <npm/pnpm/yarn>
-- Testing: <e.g. Vitest, Jest>
+- Language/framework: TypeScript, React 19, Vite 6
+- Package manager: npm
+- Testing: Vitest, React Testing Library
 
 ## Conventions
 - Commit messages follow Conventional Commits (feat, fix, docs, chore, refactor, test)

@@ -1,10 +1,8 @@
 # ai-dev-capstone
 
-Capstone project exploring AI-assisted software development. **Replace this line** with a one-sentence description of what the application does for end users once the product scope is fixed.
+Capstone project exploring AI-assisted software development. A React settings UI where users configure notification delivery channels, topics, frequency, and quiet hours.
 
 ## Getting started
-
-The app scaffold is not in the repo yet. After `package.json` and source code land, the intended workflow is:
 
 ```bash
 npm install
